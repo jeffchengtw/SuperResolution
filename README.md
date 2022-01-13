@@ -1,2 +1,2 @@
-# HW4
- SRResNet
+# HW4 Image super resolution
+ SRResNet Ganerator
