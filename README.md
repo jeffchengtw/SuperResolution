@@ -1,5 +1,5 @@
 # HW4 Image super resolution
-
+Score : 28.1756
 # Introduction
 The highly challenging task of estimating a highresolution (HR) image from its low-resolution (LR) counterpart is referred to as super-resolution (SR). SR
 received substantial attention from within the computer vision research community and has a wide range of applications.
@@ -54,3 +54,18 @@ convolution layer that learns a set of upsampling filters instead of a single
 upsampling filter to obtain high-resolution images from low-resolution 
 feature maps.<br>
 ![image](https://github.com/jeffchengtw/HW4/blob/main/fig/structure.PNG)
+
+# Training Curve
+![image](https://github.com/jeffchengtw/HW4/blob/main/fig/train_curve.PNG)<br>
+![image](https://github.com/jeffchengtw/HW4/blob/main/fig/val_curve.PNG)<br>
+
+# Submission
+Model dir<br>
+```
+results/srresnet/g-best.pth
+```
+Result dir<br>
+```
+cd to root/python infer.py
+results/test/srresnet/
+```
