@@ -70,3 +70,8 @@ Result dir<br>
 cd to root/python infer.py
 results/test/srresnet/
 ```
+# Reference
+[1] http://torch.ch/blog/2016/02/04/resnets.html <br>
+[2] https://arxiv.org/abs/1609.05158 <br>
+[3] https://arxiv.org/abs/1609.04802 <br>
+[4] https://github.com/Lornatang/SRGAN-PyTorch <br>
