@@ -50,8 +50,8 @@ def main():
     pixel_criterion = nn.MSELoss().to(config.device)
     optimizer = optim.Adam(model.parameters(), config.model_lr, config.model_betas)
 
-    if(False):
-        state_dict = torch.load(config.model_path, map_location=config.device)
+    if(True):
+        state_dict = torch.load(config.continue_model_path, map_location=config.device)
         model.load_state_dict(state_dict)
     
     scaler = amp.GradScaler()

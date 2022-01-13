@@ -20,10 +20,9 @@ device = torch.device("cuda", 0)
 cudnn.benchmark = True
 upscale_factor = 3
 train_mode = 'normal_precision'
-mode = "train_srresnet"
-exp_name = "train_srresnet_normal_precision"
+exp_name = "srresnet"
 
-model_path = f"results/{exp_name}/g-last.pth"
+continue_model_path = f"results/{exp_name}/g-last.pth"
 train_image_dir = "data/train"
 valid_image_dir = "data/valid"
 image_size = 75
